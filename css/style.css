@@ -1,0 +1,76 @@
+body {
+  color: white;
+}
+
+.bg-1 {
+  background-color: lightgreen;
+}
+
+.bg-2 {
+  background-color: red;
+}
+
+#bottom {
+  height: 200px;
+  background-color: #333333;
+}
+
+hr{
+  border: solid #333333;
+  border-width: 1px;
+}
+
+.icon {
+  text-align: center;
+  padding: 0 36px;
+  margin: 3rem 0rem;
+  color: #333333;
+}
+
+.icon p {
+  font-size: 1.3rem;
+}
+
+.icon img {
+  margin-bottom: 10px;
+}
+
+#middle {
+  height: 50px;
+  background-color: #FFFFFF;
+}
+
+#middle hr {
+  margin: 0rem 0rem 0.7rem 0rem;
+}
+
+#outer-wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+p.title-1 {
+  color: #333333;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 4rem;
+}
+
+#title-row {
+  text-align: center;
+  font-weight: bold;
+  background-color: #085A78;
+  color: white;
+  font-size: 250%;
+}
+
+#top {
+  height: 600px;
+  background-color: #074E68;
+  background-image: url(../img/apple-laptop.jpg)
+}
+
+.welcome {
+  padding-top: 50px;
+}
+
