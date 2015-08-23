@@ -78,6 +78,7 @@ p.welcome-title {
 .project img {
   width: 500px;
   height: 280px;
+  margin-bottom: 10px;
 }
 
 #projects {
@@ -98,7 +99,7 @@ span.logo2 {
   color: #FFFFFF;
   font-size: 1rem;
   position: absolute;
-  top: 10px;
+  top: 11px;
   margin-left: 8px;
 }
 
@@ -121,7 +122,7 @@ span.logo3 {
 }
 
 #top {
-  height: 600px;
+  height: 446px;
   background-color: #074E68;
   background-image: url(../img/apple-laptop.jpg)
 }
