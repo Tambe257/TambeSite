@@ -129,5 +129,10 @@ span.logo3 {
 
 .welcome {
   padding-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  background: rgba(0, 0, 0, 0.5);
 }
 
+.welcome p {
+  font-size: 2rem;
+}
