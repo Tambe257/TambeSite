@@ -35,6 +35,10 @@ hr{
   margin-bottom: 10px;
 }
 
+.logo {
+
+}
+
 #middle {
   background-color: #FFFFFF;
 }
@@ -121,10 +125,46 @@ span.logo3 {
   margin: 0.4rem 0rem;
 }
 
+.top-section ul {
+  list-style-type: none;
+  margin: 0 !important;
+}
+
+.top-section ul li {
+  display: inline-block;
+  height: 63px;
+  width: 71px;
+  padding: 13px 10px 10px 15px;
+  text-align: center;
+}
+
+.top-section ul li:hover {
+  background-color: #3D8DAB
+}
+
+.top-section ul li a {
+  color: white;
+}
+
 #top {
   height: 446px;
   background-color: #074E68;
-  background-image: url(../img/apple-laptop.jpg)
+  background-image: url(../img/apple-laptop.jpg);
+  padding-top: 8%;
+}
+
+ul.welcome-list {
+  list-style: none;
+}
+
+ul.welcome-list li{
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+}
+
+ul.welcome-list p {
+  font-size: 1.3rem;
 }
 
 .welcome {
