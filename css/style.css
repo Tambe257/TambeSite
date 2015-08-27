@@ -11,11 +11,22 @@ body {
 }
 
 #bottom {
-  height: 200px;
   background-color: #333333;
+  text-align: center;
 }
 
-hr{
+#bottom hr {
+  border-color: #FFF;
+}
+
+#bottom img {
+  height: 11rem;
+  width: 11rem;
+  border-radius: 400px;
+  margin: 2%;
+}
+
+hr {
   border: solid #333333;
   border-width: 1px;
 }
@@ -43,7 +54,7 @@ hr{
 }
 
 .logo {
-
+  width: 12rem;
 }
 
 #middle {
@@ -182,7 +193,6 @@ span.logo3 {
   background-color: #074E68;
   background-image: url(../img/apple-laptop.jpg);
   background-size: 100%;
-  padding-top: 8%;
 }
 
 ul.welcome-list {
@@ -203,17 +213,17 @@ ul.welcome-list p {
 }
 
 .welcome {
-  padding-top: 50px;
   font-family: 'Raleway', sans-serif;
   background: rgba(0, 0, 0, 0.5);
+  height: 100%;
 }
 
 .welcome p {
   font-size: 2rem;
 }
 
-.welcome-right {
-
+.welcome-text {
+  margin: 98px 0px;
 }
 
 .welcome-right hr {
