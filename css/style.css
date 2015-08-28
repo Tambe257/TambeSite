@@ -10,6 +10,222 @@ body {
   background-color: red;
 }
 
+hr {
+  border: solid #333333;
+  border-width: 1px;
+}
+
+#outer-wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.title-2 {
+  color: #FFF;
+}
+
+p.title-1 {
+  color: #333333;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 4rem;
+}
+
+/*    Navbar    */
+
+.logo {
+  width: 12rem;
+}
+
+span.logo1 {
+  color: #FFFFFF;
+  font-size: 2.6rem;
+}
+
+span.logo2 {
+  color: #FFFFFF;
+  font-size: 1rem;
+  position: absolute;
+  top: 11px;
+  margin-left: 8px;
+}
+
+span.logo3 {
+  color: #FFFFFF;
+  font-size: 1rem;
+  position: absolute;
+  top: 29px;
+  margin-left: 8px;
+}
+
+#title-row {
+  background-color: #085A78;
+  color: white;
+  font-size: 250%;
+}
+
+#title-row img {
+  margin: 0.4rem 0rem;
+}
+
+/*    Top Section     */
+
+.top-section ul {
+  list-style-type: none;
+  margin: 0 !important;
+}
+
+.top-section ul li {
+  display: inline-block;
+  height: 63px;
+  width: 71px;
+  padding: 13px 10px 10px 15px;
+  text-align: center;
+}
+
+.top-section ul li:hover {
+  background-color: #3D8DAB
+}
+
+.top-section ul li a {
+  color: white;
+}
+
+#top {
+  background-image: url(../img/apple-laptop.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+ul.welcome-list {
+  list-style: none;
+  margin: 0px;
+}
+
+ul.welcome-list li{
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+  padding: 0px 7px;
+}
+
+ul.welcome-list p {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.welcome {
+  font-family: 'Raleway', sans-serif;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.welcome p {
+  font-size: 2rem;
+}
+
+.welcome-text {
+  margin: 8% 0px;
+}
+
+.welcome-right hr {
+  border-color: #FFF;
+  margin: 10px 0px;
+}
+
+p.welcome-title {
+  font-size: 1.7rem;
+}
+
+/*    Technologies    */
+
+.icon-technologies {
+  text-align: center;
+  padding: 0 36px;
+  margin: 3rem 0rem;
+  color: #FFF;
+}
+
+.icon img {
+  height: 48px;
+  width: 55px;
+}
+
+p.title-2 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 4rem;
+}
+
+#technologies {
+  background-color: rgba(136, 133, 133, 0.8);
+  color: white;
+}
+
+#technologies hr {
+  margin: 0rem 0rem 0.7rem 0rem;
+  border-color: #FFF;
+}
+
+#technologies img {
+  height: 48px;
+  width: 55px;
+}
+
+
+/*    Middle    */
+
+.icon-middle {
+  text-align: center;
+  padding: 0 36px;
+  margin: 3rem 0rem;
+  color: #333333;
+}
+
+.icon-middle img {
+  margin-bottom: 5px;
+}
+
+#middle {
+  background-color: #FFFFFF;
+}
+
+#middle hr {
+  margin: 0rem 0rem 0.7rem 0rem;
+}
+
+/*    Projects    */
+
+.project {
+  margin: 4rem 0rem 1rem 0rem;
+}
+
+.project img {
+  width: 500px;
+  height: 280px;
+  margin-bottom: 10px;
+}
+
+#projects {
+  background-color: #085A78;
+}
+
+#projects hr{
+  border: solid #FFFFFF;
+  border-width: 1px;
+}
+
+p.project-title {
+  font-size: 1.7rem;
+  text-decoration: underline;
+}
+
+/*    Bottom    */
+
 #bottom {
   background-color: #333333;
   text-align: center;
@@ -48,209 +264,4 @@ body {
 
 #bottom ul li a{
   color: white;
-}
-
-hr {
-  border: solid #333333;
-  border-width: 1px;
-}
-
-.icon-middle {
-  text-align: center;
-  padding: 0 36px;
-  margin: 3rem 0rem;
-  color: #333333;
-}
-
-.icon-technologies {
-  text-align: center;
-  padding: 0 36px;
-  margin: 3rem 0rem;
-  color: #FFF;
-}
-
-.icon p {
-  font-size: 1.3rem;
-}
-
-.icon img {
-  margin-bottom: 10px;
-}
-
-.logo {
-  width: 12rem;
-}
-
-#middle {
-  background-color: #FFFFFF;
-}
-
-#middle hr {
-  margin: 0rem 0rem 0.7rem 0rem;
-}
-
-#outer-wrapper {
-  max-width: 1600px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-p.title-1 {
-  color: #333333;
-  text-align: center;
-  font-size: 1.8rem;
-  margin-top: 4rem;
-}
-
-p.title-2 {
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 1.8rem;
-  margin-top: 4rem;
-}
-
-p.project-title {
-  font-size: 1.7rem;
-  text-decoration: underline;
-}
-
-p.welcome-title {
-  font-size: 1.7rem;
-}
-
-.project {
-  margin: 4rem 0rem 1rem 0rem;
-}
-
-.project img {
-  width: 500px;
-  height: 280px;
-  margin-bottom: 10px;
-}
-
-#projects {
-  background-color: #085A78;
-}
-
-#projects hr{
-  border: solid #FFFFFF;
-  border-width: 1px;
-}
-
-span.logo1 {
-  color: #FFFFFF;
-  font-size: 2.6rem;
-}
-
-span.logo2 {
-  color: #FFFFFF;
-  font-size: 1rem;
-  position: absolute;
-  top: 11px;
-  margin-left: 8px;
-}
-
-span.logo3 {
-  color: #FFFFFF;
-  font-size: 1rem;
-  position: absolute;
-  top: 29px;
-  margin-left: 8px;
-}
-
-#technologies {
-  background-color: rgba(136, 133, 133, 0.8);
-  color: white;
-}
-
-#technologies hr {
-  margin: 0rem 0rem 0.7rem 0rem;
-  border-color: #FFF;
-}
-
-.icon img {
-  height: 48px;
-  width: 55px;
-}
-
-#technologies img {
-  height: 48px;
-  width: 55px;
-}
-
-.title-2 {
-  color:; #FFF;
-}
-
-#title-row {
-  background-color: #085A78;
-  color: white;
-  font-size: 250%;
-}
-
-#title-row img {
-  margin: 0.4rem 0rem;
-}
-
-.top-section ul {
-  list-style-type: none;
-  margin: 0 !important;
-}
-
-.top-section ul li {
-  display: inline-block;
-  height: 63px;
-  width: 71px;
-  padding: 13px 10px 10px 15px;
-  text-align: center;
-}
-
-.top-section ul li:hover {
-  background-color: #3D8DAB
-}
-
-.top-section ul li a {
-  color: white;
-}
-
-#top {
-  background-color: #074E68;
-  background-image: url(../img/apple-laptop.jpg);
-  background-size: cover;
-}
-
-ul.welcome-list {
-  list-style: none;
-  margin: 0px;
-}
-
-ul.welcome-list li{
-  display: inline-block;
-  width: 23%;
-  text-align: center;
-  padding: 0px 7px;
-}
-
-ul.welcome-list p {
-  font-size: 1.3rem;
-  margin-bottom: 10px;
-}
-
-.welcome {
-  font-family: 'Raleway', sans-serif;
-  background: rgba(0, 0, 0, 0.5);
-  height: 100%;
-}
-
-.welcome p {
-  font-size: 2rem;
-}
-
-.welcome-text {
-  margin: 98px 0px;
-}
-
-.welcome-right hr {
-  border-color: #FFF;
-  margin: 10px 0px;
 }
