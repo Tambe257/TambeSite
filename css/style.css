@@ -13,6 +13,13 @@ body {
 #bottom {
   background-color: #333333;
   text-align: center;
+  border-top: #FFF 2px solid;
+  padding: 2rem 0 4rem 0;
+}
+
+#bottom h1 {
+  color: white;
+  font-size: 2.7rem;
 }
 
 #bottom hr {
@@ -24,6 +31,23 @@ body {
   width: 11rem;
   border-radius: 400px;
   margin: 2%;
+}
+
+#bottom ul {
+  list-style-type: none;
+  margin: 0 !important;
+}
+
+#bottom ul li {
+  display: inline-block;
+  height: 63px;
+  width: 71px;
+  padding: 13px 10px 10px 15px;
+  text-align: center;
+}
+
+#bottom ul li a{
+  color: white;
 }
 
 hr {
@@ -68,6 +92,7 @@ hr {
 #outer-wrapper {
   max-width: 1600px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 p.title-1 {
@@ -189,10 +214,9 @@ span.logo3 {
 }
 
 #top {
-  height: 446px;
   background-color: #074E68;
   background-image: url(../img/apple-laptop.jpg);
-  background-size: 100%;
+  background-size: cover;
 }
 
 ul.welcome-list {
