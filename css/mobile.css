@@ -1,0 +1,40 @@
+@media (max-width: 480px) {
+  .top-section {
+    float: none;
+  }
+
+  .welcome-text {
+    text-align: center;
+    margin: 19% 0px; 
+  }
+
+  p.title-1 {
+    font-size: 2.5rem;
+  }
+
+  p.title-2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 40.0625em) {
+  .icon-technologies {
+    padding: 0 30px;
+  }
+
+  #top {
+    height: 77vh;
+  }
+
+  .welcome-text {
+    text-align: center;
+  }
+
+  .welcome-text p {
+    font-size: 2.6rem;
+  }
+
+  p.welcome-title {
+    font-size: 3.0rem;
+  }
+}
