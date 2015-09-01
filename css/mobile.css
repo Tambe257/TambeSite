@@ -7,6 +7,14 @@
     text-align: center;
     margin: 19% 0px; 
   }
+  
+  .welcome-text p {
+    font-size: 1.8rem;
+  }
+
+  p.welcome-title {
+    font-size: 2.3rem;
+  }
 
   p.title-1 {
     font-size: 2.5rem;
@@ -17,6 +25,36 @@
   }
 }
 
+@media (min-width: 481px ) AND (max-width: 640px) {
+  #top {
+    background-image: url(../img/apple-laptopD 640.gif);
+  }
+
+  .top-section {
+    float: none;
+  }
+
+  .welcome-text {
+    text-align: center;
+    margin: 19% 0px; 
+  }
+  
+  .welcome-text p {
+    font-size: 2.1rem;
+  }
+
+  p.welcome-title {
+    font-size: 2.4rem;
+  }
+
+  p.title-1 {
+    font-size: 2.5rem;
+  }
+
+  p.title-2 {
+    font-size: 2.5rem;
+  }
+}
 @media only screen and (min-width: 40.0625em) {
   .icon-technologies {
     padding: 0 30px;
