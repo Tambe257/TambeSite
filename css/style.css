@@ -78,6 +78,28 @@ span.logo3 {
 
 /*    Top Section     */
 
+.hero {
+  background: url(../img/apple-laptopD.gif) no-repeat center center;
+  background-size: cover;
+  height: 100vh; }
+  .hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .8; }
+  .hero .intro {
+    padding: 3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+  .hero h1 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
 .top-section ul {
   list-style-type: none;
   margin: 0 !important;
@@ -100,7 +122,6 @@ span.logo3 {
 }
 
 #top {
-  background-image: url(../img/apple-laptopD.gif);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   font-family: 'Raleway', sans-serif;
@@ -253,8 +274,6 @@ animation-delay: 1.6s;
 }
 
 .project img {
-  width: 500px;
-  height: 280px;
   margin-bottom: 10px;
 }
 
