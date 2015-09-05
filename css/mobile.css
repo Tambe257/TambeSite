@@ -48,6 +48,16 @@
   ul.right li {
     margin: 5px 20px;
   }
+
+  a#mail {
+  position: relative;
+  left: -185px;
+}
+
+  a#twitter {
+    position: relative;
+    right: -185px;
+  }
 }
 
 @media (min-width: 481px ) AND (max-width: 640px) {
@@ -101,6 +111,15 @@
   p.welcome-title {
     font-size: 3.0rem;
   }
+  a#mail {
+    position: relative;
+    left: -375px;
+  }
+
+  a#twitter {
+    position: relative;
+    right: -375px;
+  }
 }
 
 @media(max-width: 667px) and (orientation: landscape) {
@@ -115,5 +134,15 @@
 
   p.welcome-title {
     font-size: 1.9rem;
+  }
+
+  a#mail {
+    position: relative;
+    left: -315px;
+  }
+
+  a#twitter {
+    position: relative;
+    right: -305px;
   }
 }
