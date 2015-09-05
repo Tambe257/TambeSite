@@ -2,10 +2,22 @@
   .top-section {
     float: none;
   }
+  
+  .top-section ul li {
+    display: inline-block;
+    height: 63px;
+    width: 42px;
+    padding: 13px 10px 10px 15px;
+    text-align: center;
+  }
+
+  .top-section ul li:hover {
+    background-color: #085A78;
+  }
 
   .welcome-text {
     text-align: center;
-    margin: 19% 0px; 
+    margin: 50% 0px; 
   }
   
   .welcome-text p {
@@ -41,7 +53,7 @@
 
   .welcome-text {
     text-align: center;
-    margin: 19% 0px; 
+    margin: 36% 0;
   }
   
   .welcome-text p {

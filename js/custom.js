@@ -8,7 +8,7 @@ $(function() {
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             
             /* Adjust the "50" to either have a delay or that the content starts fading a bit before you reach it  */
-            bottom_of_window = bottom_of_window + 50;  
+            bottom_of_window = bottom_of_window + 20;  
           
             if( bottom_of_window > bottom_of_object ){
                 

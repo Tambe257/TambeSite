@@ -41,7 +41,7 @@ p.title-1 {
 /*    Navbar    */
 
 .logo {
-  width: 12rem;
+  width: 13rem;
 }
 
 span.logo1 {
@@ -97,7 +97,7 @@ span.logo3 {
     transform: translateY(-50%); }
   .hero h1 {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .top-section ul {
@@ -149,7 +149,7 @@ ul.welcome-list p {
 }
 
 .welcome-text {
-  margin: 12% 0px;
+  margin: 20% 0px;
   font-family: 'Raleway', sans-serif;
 }
 
