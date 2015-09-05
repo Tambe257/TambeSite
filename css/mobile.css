@@ -51,12 +51,14 @@
 
   a#mail {
   position: relative;
-  left: -185px;
+  left: -115px;
+  opacity: 0;
 }
 
   a#twitter {
     position: relative;
-    right: -185px;
+    right: -115px;
+    opacity: 0;
   }
 }
 
@@ -114,11 +116,13 @@
   a#mail {
     position: relative;
     left: -375px;
+    opacity: 0;
   }
 
   a#twitter {
     position: relative;
     right: -375px;
+    opacity: 0;
   }
 }
 
@@ -138,11 +142,13 @@
 
   a#mail {
     position: relative;
-    left: -315px;
+    left: -265px;
+    opacity: 0;
   }
 
   a#twitter {
     position: relative;
-    right: -305px;
+    right: -265px;
+    opacity: 0;
   }
 }

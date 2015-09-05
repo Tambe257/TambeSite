@@ -317,11 +317,14 @@ a#twitter {
 
 #mail.animate {
   left: -35px;
+  opacity: 1;
 }
 
 #twitter.animate {
   right: -35px;
+  opacity: 1;
 }
+
 #bottom {
   background-color: #333333;
   text-align: center;
