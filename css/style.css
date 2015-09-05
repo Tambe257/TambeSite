@@ -46,23 +46,23 @@ p.title-1 {
 
 span.logo1 {
   color: #FFFFFF;
-  font-size: 2.6rem;
+  font-size: 2.6rem !important;
 }
 
 span.logo2 {
   color: #FFFFFF;
-  font-size: 1rem;
+  font-size: 1rem !important;
   position: absolute;
-  top: 11px;
-  margin-left: 8px;
+  top: -7px;
+  margin-left: 8px !important;
 }
 
 span.logo3 {
   color: #FFFFFF;
   font-size: 1rem;
   position: absolute;
-  top: 29px;
-  margin-left: 8px;
+  top: 10px;
+  margin-left: 8px !important;
 }
 
 #title-row {
@@ -76,6 +76,9 @@ span.logo3 {
   margin: 0.4rem 0rem;
 }
 
+.top-bar.expanded .title-area {
+  background: #085A78;
+}
 /*    Top Section     */
 
 .hero {
@@ -109,7 +112,7 @@ span.logo3 {
   display: inline-block;
   height: 63px;
   width: 71px;
-  padding: 13px 10px 10px 15px;
+  padding: 6px 10px 0px 15px;
   text-align: center;
 }
 
