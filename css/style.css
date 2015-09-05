@@ -299,7 +299,29 @@ span.thetens {
 }
 
 /*    Bottom    */
+a#mail {
+  position: relative;
+  left: -285px;
+}
 
+a#twitter {
+  position: relative;
+  right: -285px;
+}
+
+.animate {
+  transition: 2s ease-in-out;
+  -moz-transition: 2s ease-in-out;
+  -webkit-transition: 2s ease-in-out;
+}
+
+#mail.animate {
+  left: -35px;
+}
+
+#twitter.animate {
+  right: -35px;
+}
 #bottom {
   background-color: #333333;
   text-align: center;
@@ -336,6 +358,6 @@ span.thetens {
   text-align: center;
 }
 
-#bottom ul li a{
+#bottom a{
   color: white;
 }
