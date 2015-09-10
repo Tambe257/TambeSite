@@ -115,6 +115,7 @@ span.logo3 {
 .top-section ul {
   list-style-type: none;
   margin: 0 !important;
+  float: right;
 }
 
 .top-section ul li {

@@ -1,6 +1,7 @@
 @media (max-width: 480px) {
-  .top-section {
+  .top-section ul {
     float: none;
+    text-align: center;
   }
   
   .top-section ul li {
