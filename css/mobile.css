@@ -1,4 +1,8 @@
 @media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
   .top-section ul {
     float: none;
     text-align: center;
@@ -37,7 +41,7 @@
   }
   
   p.project-title {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-decoration: underline;
   }
 
@@ -46,6 +50,18 @@
     float: none !important;
   }
 
+  span.logo1 {
+    font-size: 2.3rem;
+  }
+
+  span.logo2 {
+    font-size: 0.8rem !important;
+  }
+  
+  span.logo3 {
+    font-size: 0.8rem !important;
+  }
+  
   ul.right li {
     margin: 5px 20px;
   }
