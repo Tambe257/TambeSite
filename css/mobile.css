@@ -22,6 +22,7 @@
 
   .welcome-text {
     text-align: center;
+    margin: 16% 0px;
   }
   
   .welcome-text p {
@@ -150,11 +151,20 @@
 @media(max-width: 667px) and (orientation: landscape) {
   .welcome-text {
     text-align: center;
-    margin: 11% 0;
+    margin: 3% 0;
   }
   
+  .hero h1 {
+    font-size: 2.1rem;
+  }
+  
+  .top-section ul {
+    float: none;
+    text-align: center;
+  }
+
   .welcome-text p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   p.welcome-title {
