@@ -93,23 +93,30 @@ span.logo3 {
 .hero {
   background: url(../img/apple-laptopD.gif) no-repeat center center;
   background-size: cover;
-  height: 100vh; }
-  .hero:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: .8; }
-  .hero .intro {
-    padding: 3rem;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%); }
-  .hero h1 {
-    color: #fff;
-    font-size: 3.5rem;
+  height: 100vh; 
+  overflow: hidden;
+}
+
+.hero:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: .8; 
+}
+
+.hero .intro {
+  padding: 3rem;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 3.5rem;
 }
 
 .top-section ul {
@@ -162,7 +169,7 @@ ul.welcome-list p {
 }
 
 .welcome-text {
-  margin: 17% 0px;
+  margin: 13% 0px;
   font-family: 'Raleway', sans-serif;
 }
 

@@ -1,6 +1,6 @@
 @media (max-width: 480px) {
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
   .top-section ul {
@@ -26,7 +26,7 @@
   }
   
   .welcome-text p {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 
   .project {
