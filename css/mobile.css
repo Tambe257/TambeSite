@@ -20,13 +20,25 @@
     background-color: #085A78;
   }
 
+  .welcome-button {
+    font-size: 17px;
+    margin-right: 6px;
+    padding: 0 7px;
+  }
+
   .welcome-text {
     text-align: center;
     margin: 16% 0px;
   }
   
   .welcome-text p {
-    font-size: 1.7rem;
+    /*font-size: 2rem;*/
+    margin: 25px 0 30px;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    z-index: 2;
+    color: #fff;
+    font: 400 22px Roboto;
   }
 
   .project {
@@ -99,7 +111,7 @@
   }
   
   .welcome-text p {
-    font-size: 2.1rem;
+    /*font-size: 2.1rem;*/
   }
 
   p.welcome-title {
@@ -129,7 +141,7 @@
   }
 
   .welcome-text p {
-    font-size: 2.6rem;
+    /*font-size: 2.6rem;*/
   }
 
   p.welcome-title {
@@ -154,6 +166,17 @@
     margin: 3% 0;
   }
   
+  .welcome-text p{
+    margin: 13px 0 30px;
+    font: 400 20px Roboto;
+  }
+
+  .welcome-button {
+    padding: 0 20px;
+    font-size: 15px;
+    height: 45px;
+  }
+
   .hero h1 {
     font-size: 2.1rem;
   }
@@ -164,7 +187,7 @@
   }
 
   .welcome-text p {
-    font-size: 1.5rem;
+    /*font-size: 1.5rem;*/
   }
 
   p.welcome-title {

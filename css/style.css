@@ -151,6 +151,35 @@ span.logo3 {
   display: block;
 }
 
+.transp {
+  background: 0;
+  border: 2px solid #fff;
+  line-height: 46px;
+  padding: 0 20px;
+}
+
+.welcome-button {
+  position: relative;
+  display: inline-block;
+  padding: 0 25px;
+  color: #fff!important;
+  font: 700 'Source Sans Pro',Arial,Helvetica,Tahoma,sans-serif;
+  border-radius: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  -webkit-transition: all .15s linear;
+  height: 50px;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+a.welcome-button:hover {
+  background: rgba(0, 0, 0, 0.5)
+}
+
 ul.welcome-list {
   list-style: none;
   margin: 0px;
@@ -170,11 +199,22 @@ ul.welcome-list p {
 
 .welcome-text {
   margin: 13% 0px;
-  font-family: 'Raleway', sans-serif;
 }
 
 .welcome-text p {
-  font-size: 2rem;
+  /*font-size: 2rem;*/
+  margin: 25px 0 30px;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  z-index: 2;
+  color: #fff;
+  font: 400 28px Roboto;
+}
+
+.welcome-text h1 {
+  display: block;
+  font: 600 64px/64px 'Roboto Condensed';
+  text-transform: uppercase;
 }
 
 .welcome-right hr {
