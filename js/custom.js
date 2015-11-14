@@ -1,7 +1,7 @@
 /* Fade in elements on scroll */
 
 $(function() {
-    $(window).scroll( function(){
+    $(window).scroll(function() {
         $('.fadeInBlock').each( function(i){
             
             var bottom_of_object = $(this).position().top + $(this).outerHeight();

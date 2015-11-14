@@ -162,7 +162,6 @@ span.logo3 {
   position: relative;
   display: inline-block;
   padding: 0 25px;
-  color: #fff!important;
   font: 700 'Source Sans Pro',Arial,Helvetica,Tahoma,sans-serif;
   border-radius: 3px;
   text-align: center;
@@ -174,6 +173,8 @@ span.logo3 {
   height: 50px;
   font-size: 18px;
   margin-right: 20px;
+  color: rgba(0, 0, 0, 0.7) !important;
+  background: white;
 }
 
 p.p1 {
@@ -192,8 +193,8 @@ p.p3 {
 }
 
 a.welcome-button:hover {
-  color: rgba(0, 0, 0, 0.7) !important;
-  background: white;
+  color: #fff !important;
+  background: transparent;
 }
 
 ul.welcome-list {
