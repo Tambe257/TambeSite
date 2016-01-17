@@ -1,91 +1,125 @@
-.avatar img {
-  -webkit-border-radius: 180px;
-  -moz-border-radius: 180px;
-  -ms-border-radius: 180px;
-  border-radius: 180px;
-  border: 2px #fff solid;
-  margin-bottom: 20px; }
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.avatar {
+  img {
+    @include border-radius(180px);
+    border: 2px #fff solid;
+    margin-bottom: 20px;
+  }
+}
 
 body {
   color: white;
-  margin: 0px; }
+  margin: 0px;
+}
 
 .bg-1 {
-  background-color: lightgreen; }
+  background-color: lightgreen;
+}
 
 .bg-2 {
-  background-color: red; }
+  background-color: red;
+}
 
 .container {
   max-width: 1600px;
   width: 90%;
-  margin: auto; }
+  margin: auto;
+}
 
 hr {
   border: solid #333333;
-  border-width: 1px; }
+  border-width: 1px;
+}
 
 #outer-wrapper {
   margin: 0 auto;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .title-2 {
-  color: #FFF; }
+  color: #FFF;
+}
 
 p.title-1 {
   color: #333333;
   text-align: center;
   font-size: 1.8rem;
-  margin-top: 4rem; }
+  margin-top: 4rem;
+}
 
 /* Fade in elements on scroll */
 .fadeInBlock {
-  opacity: 0; }
+    opacity:0;
+}
 
 /*    Navbar    */
+
 .logo {
-  width: 13rem; }
+  width: 13rem;
+}
 
 span.logo1 {
   color: #FFFFFF;
-  font-size: 2.6rem !important; }
+  font-size: 2.6rem !important;
+}
 
 span.logo2 {
   color: #FFFFFF;
   font-size: 1rem !important;
   position: absolute;
   top: -7px;
-  margin-left: 8px !important; }
+  margin-left: 8px !important;
+}
 
 span.logo3 {
   color: #FFFFFF;
   font-size: 1rem;
   position: absolute;
   top: 10px;
-  margin-left: 8px !important; }
+  margin-left: 8px !important;
+}
 
 #title-row {
   background-color: #085A78;
   color: white;
   font-size: 250%;
-  z-index: 1; }
+  z-index: 1;
+}
 
 #title-row img {
-  margin: 0.4rem 0rem; }
+  margin: 0.4rem 0rem;
+}
 
 .top-bar.expanded .title-area {
-  background: #085A78; }
-
+  background: #085A78;
+}
 /*    Top Section     */
+
 .fa-envelope-o {
-  margin-right: 3px; }
+  margin-right: 3px;
+}
 
 .hero {
   background: url(../img/apple-laptopD.gif) no-repeat center center;
   background-size: cover;
   overflow: hidden;
   background-position: center;
-  min-height: 450px; }
+  min-height: 450px;
+}
 
 .hero:before {
   content: '';
@@ -94,35 +128,42 @@ span.logo3 {
   right: 0;
   bottom: 0;
   left: 0;
-  opacity: .8; }
+  opacity: .8; 
+}
 
 .hero .intro {
   padding: 3rem;
   position: relative;
   top: 50%;
-  transform: translateY(-50%); }
+  transform: translateY(-50%); 
+}
 
 .hero h1 {
   color: #fff;
-  font-size: 3.5rem; }
+  font-size: 3.5rem;
+}
 
 .top-section ul {
   list-style-type: none;
   margin: 0 !important;
-  float: right; }
+  float: right;
+}
 
 .top-section ul li {
   display: inline-block;
   height: 45px;
   width: 71px;
   padding: 6px 10px 0px 15px;
-  text-align: center; }
+  text-align: center;
+}
 
 .top-section ul li:hover {
-  background-color: #3D8DAB; }
+  background-color: #3D8DAB
+}
 
 .top-section ul li a {
-  color: white; }
+  color: white;
+}
 
 #top {
   background-position: 50% 50%;
@@ -131,13 +172,15 @@ span.logo3 {
   max-width: 100%;
   height: 86vh;
   position: relative;
-  display: block; }
+  display: block;
+}
 
 .transp {
   background: 0;
   border: 2px solid #fff;
   line-height: 46px;
-  padding: 0 20px; }
+  padding: 0 20px;
+}
 
 .welcome-button {
   position: relative;
@@ -155,231 +198,267 @@ span.logo3 {
   font-size: 18px;
   margin-right: 20px;
   color: rgba(0, 0, 0, 0.7) !important;
-  background: white; }
+  background: white;
+}
 
 p.p1 {
   font: 400 28px Roboto;
-  margin: 30px 0 10px 0; }
+  margin: 30px 0 10px 0;
+}
 
 p.p2 {
   font: 400 24px Roboto;
-  margin: 10px 0; }
+  margin: 10px 0;
+}
 
 p.p3 {
   font: 400 22px Roboto;
-  margin: 10px 0 40px 0; }
+  margin: 10px 0 40px 0;
+}
 
 a.welcome-button:hover {
   color: #fff !important;
-  background: transparent; }
+  background: transparent;
+}
 
 ul.welcome-list {
   list-style: none;
-  margin: 0px; }
+  margin: 0px;
+}
 
-ul.welcome-list li {
+ul.welcome-list li{
   display: inline-block;
   width: 23%;
   text-align: center;
-  padding: 0px 7px; }
+  padding: 0px 7px;
+}
 
 ul.welcome-list p {
   font-size: 1.3rem;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 .welcome-text {
   top: 50%;
-  min-height: 450px; }
+  min-height: 450px;
+}
 
 .welcome-text p {
   /*font-size: 2rem;*/
   text-transform: uppercase;
   letter-spacing: .03em;
   z-index: 2;
-  color: #fff; }
+  color: #fff;
+}
 
 .welcome-text h1 {
   display: block;
   font: 600 64px/64px 'Roboto Condensed';
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .welcome-right hr {
   border-color: #FFF;
-  margin: 10px 0px; }
+  margin: 10px 0px;
+}
 
 p.welcome-title {
-  font-size: 2.2rem; }
+  font-size: 2.2rem;
+}
 
 /*    Technologies    */
+
 .icon-technologies {
   text-align: center;
   padding: 0 36px;
   margin: 3rem 0rem;
-  color: #FFF; }
+  color: #FFF;
+}
 
 .icon img {
   height: 48px;
-  width: 55px; }
+  width: 55px;
+}
 
 p.title-2 {
   color: #FFFFFF;
   text-align: center;
   font-size: 1.8rem;
-  margin-top: 4rem; }
+  margin-top: 4rem;
+}
 
 #technologies {
   background-color: rgba(136, 133, 133, 0.8);
-  color: white; }
+  color: white;
+}
 
 #technologies hr {
   margin: 0rem 0rem 0.7rem 0rem;
-  border-color: #FFF; }
+  border-color: #FFF;
+}
 
 #technologies img {
   height: 48px;
-  width: 55px; }
+  width: 55px;
+}
 
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-@-moz-keyframes fadeIn {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-@keyframes fadeIn {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
 .fade-in {
-  opacity: 0;
-  /* make things invisible upon start */
-  -webkit-animation: fadeIn ease-in 1;
-  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  -moz-animation: fadeIn ease-in 1;
-  animation: fadeIn ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-duration: 1s;
-  -moz-animation-duration: 1s;
-  animation-duration: 1s; }
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
 
 .fade-in.one {
-  -webkit-animation-delay: 0.7s;
-  -moz-animation-delay: 0.7s;
-  animation-delay: 0.7s; }
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
 
 .fade-in.two {
-  -webkit-animation-delay: 1.2s;
-  -moz-animation-delay: 1.2s;
-  animation-delay: 1.2s; }
+-webkit-animation-delay: 1.2s;
+-moz-animation-delay:1.2s;
+animation-delay: 1.2s;
+}
 
 .fade-in.three {
-  -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 1.6s; }
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay: 1.6s;
+animation-delay: 1.6s;
+}
 
 .fade-in.four {
-  -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 1.6s; }
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay: 1.6s;
+animation-delay: 1.6s;
+}
+
 
 /*    Middle    */
+
 .icon-middle {
   text-align: center;
   padding: 0 36px;
   margin: 3rem 0rem;
-  color: #333333; }
+  color: #333333;
+}
 
 .icon-middle img {
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+}
 
 #middle {
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+}
 
 #middle hr {
-  margin: 0rem 0rem 0.7rem 0rem; }
+  margin: 0rem 0rem 0.7rem 0rem;
+}
 
 /*    Projects    */
+
 .project {
-  margin: 4rem 0rem 1rem 0rem; }
+  margin: 4rem 0rem 1rem 0rem;
+}
 
 .project img {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 #projects {
-  background-color: #085A78; }
+  background-color: #085A78;
+}
 
-#projects hr {
+#projects hr{
   border: solid #FFFFFF;
-  border-width: 1px; }
+  border-width: 1px;
+}
 
 p.project-title {
   font-size: 1.7rem;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 span.thetens {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /*    Bottom    */
 a#mail {
   position: relative;
-  left: -285px; }
+  left: -285px;
+}
 
 a#twitter {
   position: relative;
-  right: -285px; }
+  right: -285px;
+}
 
 .animate {
   transition: 2s ease-in-out;
   -moz-transition: 2s ease-in-out;
-  -webkit-transition: 2s ease-in-out; }
+  -webkit-transition: 2s ease-in-out;
+}
 
 #mail.animate {
   left: -35px;
-  opacity: 1; }
+  opacity: 1;
+}
 
 #twitter.animate {
   right: -35px;
-  opacity: 1; }
+  opacity: 1;
+}
 
 #bottom {
   background-color: #333333;
   text-align: center;
   border-top: #FFF 2px solid;
   padding: 2rem 0 4rem 0;
-  clear: both; }
+  clear: both;
+}
 
 #bottom h1 {
   color: white;
-  font-size: 2.7rem; }
+  font-size: 2.7rem;
+}
 
 #bottom hr {
-  border-color: #FFF; }
+  border-color: #FFF;
+}
 
 #bottom img {
   height: 11rem;
   width: 11rem;
   border-radius: 400px;
-  margin: 2%; }
+  margin: 2%;
+}
 
 #bottom ul {
   list-style-type: none;
-  margin: 0 !important; }
+  margin: 0 !important;
+}
 
 #bottom ul li {
   display: inline-block;
   height: 63px;
   width: 71px;
   padding: 13px 10px 10px 15px;
-  text-align: center; }
+  text-align: center;
+}
 
-#bottom a {
-  color: white; }
-
-/*# sourceMappingURL=style.css.map */
+#bottom a{
+  color: white;
+}
