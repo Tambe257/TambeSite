@@ -27,8 +27,8 @@
   }
 
   .welcome-text a.btn {
-    margin: 30px 6px;
-    padding: 0.9rem 1.5rem;
+    margin: 30px 3px;
+    padding: 0.9rem 1.2rem;
   }
   .welcome-text {
     text-align: center;
@@ -74,7 +74,7 @@
     font-size: 2.5rem;
   }
   
-  p.project-title {
+  h2.project-title {
     font-size: 1.2rem;
     text-decoration: underline;
   }
@@ -127,6 +127,11 @@
     margin: 36% 0;
   }
 
+  .welcome-text a.btn {
+    margin: 30px 3px;
+    padding: 0.9rem 1.2rem;
+  }
+  
   p.welcome-title {
     font-size: 2.4rem;
   }
@@ -196,6 +201,10 @@
     margin: 3% 0;
   }
   
+  .welcome-text a.btn {
+    margin: 30px 3px;
+    padding: 0.9rem 1.2rem;
+  }
   p.p1 {
     font: 400 20px Roboto;
     margin: 18px 0 10px 0;
