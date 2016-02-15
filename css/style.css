@@ -32,7 +32,7 @@ hr {
 .title-2 {
   color: #FFF; }
 
-p.title-1 {
+h1.title-1 {
   color: #333333;
   text-align: center;
   font-size: 1.8rem;
@@ -221,10 +221,10 @@ p.welcome-title {
   height: 48px;
   width: 55px; }
 
-p.title-2 {
+h1.title-2 {
   color: #FFFFFF;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   margin-top: 4rem; }
 
 #technologies {
