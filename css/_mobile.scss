@@ -115,7 +115,7 @@
 
 @media (min-width: 481px ) AND (max-width: 640px) {
   #top {
-    background-image: url(../img/apple-laptopD 640.gif);
+//    background-image: url(../img/apple-laptopD 640.gif);
   }
 
   .top-section {
@@ -156,8 +156,13 @@
   }
 
   .welcome-text {
+
+  }
+
+  .down-arrow {
     text-align: center;
-    margin: 8% 0;
+    padding: 6% 0;
+    display: inherit;
   }
 
   p.p1 {
@@ -197,27 +202,28 @@
 
 @media(max-width: 667px) and (orientation: landscape) {
   .welcome-text {
-    text-align: center;
-    margin: 3% 0;
+    padding-top: 5%;
   }
   
-  .welcome-text a.btn {
-    margin: 30px 3px;
-    padding: 0.9rem 1.2rem;
-  }
-  p.p1 {
-    font: 400 20px Roboto;
-    margin: 18px 0 10px 0;
-  }
-
-  p.p2 {
-    font: 400 18px Roboto;
-    margin: 10px 0;
-  }
-
-  p.p3 {
-    font: 400 18px Roboto;
-    margin: 10px 0 26px 0;
+  .welcome-info {
+    text-transform: uppercase;
+    
+    a {
+      .btn {
+        margin: 30px 3px;
+        padding: 0.9rem 1.2rem;
+      }
+    }
+    
+    .button-wrapper {
+      margin-top: 25px;  
+    }
+    
+    h2 {
+      font: 400 16px Roboto;
+      margin: 18px 0 10px 0;
+      color: #fff;
+    }
   }
 
   .welcome-button {
@@ -266,13 +272,5 @@
     position: relative;
     right: -265px;
     opacity: 0;
-  }
-}
-
-
-@media (min-width: 765px ) AND (max-width: 800px) {
-  .welcome-text {
-    text-align: center;
-    margin: 17% 0;
   }
 }

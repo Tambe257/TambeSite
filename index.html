@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="I'm a freelance web developer, available for peronal or business sites. Responsive website design and development for all sizes of projects.">
     <title>Tony Tambe | Freelance Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/mobile.css" />
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome-4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -47,23 +47,29 @@
 
         <div class="container">
           <div class="row welcome-text">
-            <div class="vert-align">
-              <div class="small-6 small-centered medium-4 medium-uncentered columns">
-                  <div class="avatar">
-                    <img src="img/Tony.jpg" alt="Tony">
-                  </div>
-              </div>  
-               <div class="small-12 medium-8 columns">
-                <h1>Hi There!</h1>
-                <p class="p1">I'm a web developer from New York and </p>
-                <p class="p2">I love to build websites and Rails apps.</p> 
-                <p class="p3">Let's work together!</p>
-                <div class="button-wrapper">
-                  <a href="#projects" class="btn">Projects</a>
-                  <a href="#bottom" class="btn">About Tony</a>
-                </div>  
-              </div>  
-            </div>   
+            <div class="small-6 small-centered medium-4 medium-uncentered columns">
+                <div class="avatar">
+                  <img src="img/Tony.jpg" alt="Tony">
+                </div>
+            </div>  
+             <div class="small-12 medium-8 columns welcome-info">
+              <h1>Hi There!</h1>
+              <h2>I'm a web developer from New York and </h2>
+              <h2>I love to build websites and Rails apps.</h2> 
+              <h2>Let's work together!</h2>
+              <div class="button-wrapper">
+                <a href="#projects" class="btn">Projects</a>
+                <a href="#bottom" class="btn">About Tony</a>
+              </div> 
+            </div>  
+            <div class="clearfix"></div> 
+          </div>
+          <div class="row">
+            <div class="small-12 columns down-arrow">
+               <a href="#technologies" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
           </div>
         </div>   
       </section><!-- end hero -->
@@ -208,6 +214,7 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
     <script>
       $(document).foundation();
     </script>
