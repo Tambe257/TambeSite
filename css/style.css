@@ -84,7 +84,11 @@ span.logo3 {
 .down-arrow {
   text-align: center;
   margin: 1% 0;
+  padding: 6% 0;
   display: none; }
+  @media (min-width: 768px) {
+    .down-arrow {
+      padding: 2% 0 4% 0; } }
   .down-arrow .arrow-container {
     height: 30px;
     width: 30px;
@@ -244,7 +248,8 @@ ul.welcome-list p {
   margin: 10% 0rem; }
   @media (min-width: 768px) {
     .welcome-text {
-      padding: 3rem 0rem 1rem 0rem; } }
+      padding: 1rem 0rem 1rem 0rem;
+      margin: 3% 0rem; } }
   .welcome-text h1 {
     display: block;
     font: 600 64px/64px 'Roboto Condensed';
@@ -592,7 +597,6 @@ a#twitter {
 
   .down-arrow {
     text-align: center;
-    padding: 6% 0;
     display: inherit; }
 
   p.p1 {

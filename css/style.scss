@@ -141,7 +141,12 @@ span.logo3 {
 .down-arrow {
   text-align: center;
   margin: 1% 0;
+  padding: 6% 0;
   display: none;
+  
+  @include breakpoint(sm) {
+    padding: 2% 0 4% 0;  
+  }
   
   .arrow-container {
     height: 30px;
@@ -341,7 +346,8 @@ ul.welcome-list p {
   margin: 10% 0rem;
   
   @include breakpoint(sm) {
-    padding: 3rem 0rem 1rem 0rem; 
+    padding: 1rem 0rem 1rem 0rem;
+    margin: 3% 0rem;
   }
   
   h1 {
